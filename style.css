@@ -121,14 +121,15 @@ h1 {
 }
 
 .card-type {
-  display: inline-block;
+  display: block;
+  width: fit-content;
+  margin: 0 auto 10px;
   color: #fff;
   font-size: 0.75rem;
   font-weight: bold;
   padding: 3px 10px;
   border-radius: 12px;
   text-transform: capitalize;
-  margin-bottom: 10px;
 }
 
 .details-link {
